@@ -1,0 +1,188 @@
+CRITICAL - 2022-09-30 05:33:30 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-30 05:34:16 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-30 05:35:51 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 219.
+ 1 SYSTEMPATH\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-09-30 01:13:53 --> Undefined variable $setting
+in APPPATH\Views\v_setting.php on line 27.
+ 1 APPPATH\Views\v_setting.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $setting', 'APPPATH\\Views\\v_setting.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_setting', [], true)
+ 5 APPPATH\Views\v_template.php(365): view('v_setting')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Admin.php(36): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->Setting()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 01:14:51 --> Undefined variable $Setting
+in APPPATH\Views\v_setting.php on line 27.
+ 1 APPPATH\Views\v_setting.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Setting', 'APPPATH\\Views\\v_setting.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_setting', [], true)
+ 5 APPPATH\Views\v_template.php(365): view('v_setting')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Admin.php(36): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->Setting()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 01:15:27 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Admin.php(35): CodeIgniter\Model->__call('DetailData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->Setting()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 01:29:51 --> Undefined array key "name_shop"
+in APPPATH\Views\v_setting.php on line 30.
+ 1 APPPATH\Views\v_setting.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_shop"', 'APPPATH\\Views\\v_setting.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_setting', [], true)
+ 5 APPPATH\Views\v_template.php(365): view('v_setting')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Admin.php(38): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->Setting()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 01:37:23 --> Undefined array key "name_shop"
+in APPPATH\Views\v_setting.php on line 30.
+ 1 APPPATH\Views\v_setting.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_shop"', 'APPPATH\\Views\\v_setting.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_setting', [], true)
+ 5 APPPATH\Views\v_template.php(365): view('v_setting')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Admin.php(38): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->Setting()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 01:49:04 --> Undefined array key "name_shop"
+in APPPATH\Views\v_setting.php on line 30.
+ 1 APPPATH\Views\v_setting.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_shop"', 'APPPATH\\Views\\v_setting.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_setting.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_setting', [], true)
+ 5 APPPATH\Views\v_template.php(365): view('v_setting')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_template.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_template', [], true)
+ 9 APPPATH\Controllers\Admin.php(38): view('v_template', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Admin->Setting()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 03:16:24 --> Undefined property: App\Controllers\Home::$modelUser
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$modelUser', 'APPPATH\\Controllers\\Home.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->CekLogin()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 03:17:20 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Home.php(43): CodeIgniter\Model->__call('CekLogin', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->CekLogin()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 03:49:57 --> Undefined variable $LoginUser
+in APPPATH\Views\v_login.php on line 28.
+ 1 APPPATH\Views\v_login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $LoginUser', 'APPPATH\\Views\\v_login.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_login', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('v_login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 03:51:28 --> Undefined variable $CekLogin
+in APPPATH\Views\v_login.php on line 28.
+ 1 APPPATH\Views\v_login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CekLogin', 'APPPATH\\Views\\v_login.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_login', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('v_login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 04:08:15 --> Undefined variable $User
+in APPPATH\Views\v_login.php on line 28.
+ 1 APPPATH\Views\v_login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User', 'APPPATH\\Views\\v_login.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_login', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('v_login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 04:08:16 --> Undefined variable $User
+in APPPATH\Views\v_login.php on line 28.
+ 1 APPPATH\Views\v_login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User', 'APPPATH\\Views\\v_login.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_login', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('v_login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 04:12:22 --> Undefined variable $User
+in APPPATH\Views\v_login.php on line 28.
+ 1 APPPATH\Views\v_login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $User', 'APPPATH\\Views\\v_login.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_login', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('v_login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 21:53:14 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('Category', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 21:53:26 --> strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+in SYSTEMPATH\Debug\Toolbar.php on line 420.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated', 'SYSTEMPATH\\Debug\\Toolbar.php', 420)
+ 2 SYSTEMPATH\Debug\Toolbar.php(420): strpos(null, '<head>')
+ 3 SYSTEMPATH\Filters\DebugToolbar.php(40): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse))
+ 4 SYSTEMPATH\Filters\Filters.php(196): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\RedirectResponse), null)
+ 5 SYSTEMPATH\CodeIgniter.php(477): CodeIgniter\Filters\Filters->run('Unit', 'after')
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

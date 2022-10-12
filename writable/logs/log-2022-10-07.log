@@ -1,0 +1,237 @@
+ERROR - 2022-10-07 02:10:15 --> An invalid name was submitted as the product name:  The name can only contain alpha-numeric characters, dashes, underscores, colons, and spaces
+CRITICAL - 2022-10-07 02:43:05 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:06 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:11 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:12 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:12 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:12 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:13 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:13 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:22 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 02:43:23 --> Undefined variable $title
+in APPPATH\Views\report\v_table_report_days.php on line 17.
+ 1 APPPATH\Views\report\v_table_report_days.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\report\\v_table_report_days.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_table_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_table_report_days', [], true)
+ 5 APPPATH\Controllers\Report.php(60): view('report/v_table_report_days', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->ViewReportDays()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 03:49:13 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:07:40 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:13:18 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:17:15 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:17:35 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:17:51 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:20:48 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:23:58 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:26:13 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:27:46 --> Undefined variable $dataDays
+in APPPATH\Views\report\v_print_report_days.php on line 22.
+ 1 APPPATH\Views\report\v_print_report_days.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataDays', 'APPPATH\\Views\\report\\v_print_report_days.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_print_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_print_report_days', [], true)
+ 5 APPPATH\Views\report\v_template_print_report.php(90): view('report/v_print_report_days')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_template_print_report.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_template_print_report', [], true)
+ 9 APPPATH\Controllers\Report.php(74): view('report/v_template_print_report', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:29:39 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:29:50 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:30:15 --> Too few arguments to function App\Controllers\Report::PrintDataDays(), 0 passed in C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\Report.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:30:43 --> Undefined variable $dataDays
+in APPPATH\Views\report\v_print_report_days.php on line 22.
+ 1 APPPATH\Views\report\v_print_report_days.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataDays', 'APPPATH\\Views\\report\\v_print_report_days.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_print_report_days.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_print_report_days', [], true)
+ 5 APPPATH\Views\report\v_template_print_report.php(90): view('report/v_print_report_days')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\report\\v_template_print_report.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('report/v_template_print_report', [], true)
+ 9 APPPATH\Controllers\Report.php(74): view('report/v_template_print_report', [...])
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Report->PrintDataDays()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:54:43 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Category.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Category->ajaxList()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:57:09 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Category.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Category->ajaxList()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 04:59:37 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Category.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Category->ajaxList()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-07 05:00:45 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Category.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Category->ajaxList()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

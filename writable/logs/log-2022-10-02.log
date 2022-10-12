@@ -1,0 +1,75 @@
+ERROR - 2022-10-02 05:32:46 --> mysqli_sql_exception: Unknown column 'tbl_sell' in 'where clause' in C:\xampp\htdocs\kasir-ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\kasir-ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGH...', 0)
+#1 C:\xampp\htdocs\kasir-ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGH...')
+#2 C:\xampp\htdocs\kasir-ci4\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGH...')
+#3 C:\xampp\htdocs\kasir-ci4\app\Models\ModelSell.php(12): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGH...')
+#4 C:\xampp\htdocs\kasir-ci4\app\Controllers\Selling.php(20): App\Models\ModelSell->NoCode()
+#5 C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php(898): App\Controllers\Selling->index()
+#6 C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Selling))
+#7 C:\xampp\htdocs\kasir-ci4\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir-ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-02 05:32:46 --> Unknown column 'tbl_sell' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT MAX(RIGHT(no_code,4)) as no_sort from tbl_sell where Date(tbl_sell)=\'20221002\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT MAX(RIGHT(no_code,4)) as no_sort from tbl_sell where Date(tbl_sell)=\'20221002\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT MAX(RIGHT(no_code,4)) as no_sort from tbl_sell where Date(tbl_sell)=\'20221002\'')
+ 4 APPPATH\Models\ModelSell.php(12): CodeIgniter\Database\BaseConnection->query('SELECT MAX(RIGHT(no_code,4)) as no_sort from tbl_sell where Date(tbl_sell)=\'20221002\'')
+ 5 APPPATH\Controllers\Selling.php(20): App\Models\ModelSell->NoCode()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Selling->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Selling))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 05:40:50 --> Undefined array key "no_result"
+in APPPATH\Models\ModelSell.php on line 15.
+ 1 APPPATH\Models\ModelSell.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_result"', 'APPPATH\\Models\\ModelSell.php', 15)
+ 2 APPPATH\Controllers\Selling.php(20): App\Models\ModelSell->NoCode()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Selling->index()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Selling))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 09:13:15 --> Undefined variable $Product
+in APPPATH\Views\v_selling.php on line 456.
+ 1 APPPATH\Views\v_selling.php(456): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Product', 'APPPATH\\Views\\v_selling.php', 456)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_selling.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_selling', [], true)
+ 5 APPPATH\Controllers\Selling.php(22): view('v_selling', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Selling->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Selling))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 09:15:21 --> Undefined variable $value
+in APPPATH\Views\v_selling.php on line 324.
+ 1 APPPATH\Views\v_selling.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'APPPATH\\Views\\v_selling.php', 324)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_selling.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_selling', [], true)
+ 5 APPPATH\Controllers\Selling.php(22): view('v_selling', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Selling->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Selling))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 21:47:45 --> Undefined variable $product
+in APPPATH\Views\v_selling.php on line 425.
+ 1 APPPATH\Views\v_selling.php(425): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'APPPATH\\Views\\v_selling.php', 425)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_selling.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_selling', [], true)
+ 5 APPPATH\Controllers\Selling.php(25): view('v_selling', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Selling->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Selling))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-02 21:47:54 --> Undefined variable $Product
+in APPPATH\Views\v_selling.php on line 425.
+ 1 APPPATH\Views\v_selling.php(425): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Product', 'APPPATH\\Views\\v_selling.php', 425)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\v_selling.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('v_selling', [], true)
+ 5 APPPATH\Controllers\Selling.php(25): view('v_selling', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Selling->index()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Selling))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
