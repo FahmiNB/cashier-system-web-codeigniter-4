@@ -105,3 +105,5 @@ The normal practice would be to copy ``phpunit.xml.dist`` to ``phpunit.xml``
 (which is git ignored), and to tailor it as you see fit.
 For instance, you might wish to exclude database tests, or automatically generate
 HTML code coverage reports.
+
+## password user in db-kasir-ci4
